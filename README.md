@@ -14,7 +14,7 @@ Prerequisites:
 Install steps:
 
 1. Acivate official Hungarian keyboard layout
-1. Download `Hungarian_AltGr.json` to `/Users/petergillich/.config/karabiner/assets/complex_modifications/`.
+1. Download `Hungarian_AltGr.json` to `/Users/<username>/.config/karabiner/assets/complex_modifications/`.
 1. Open Karabiner-Elements
 1. In Simple modifications, define **left_command** -> **left_control** and **left_control** -> **left_command** replacements
 1. In Complex modifications, click on *Add rule*, click on *Enable All* of line **AltGr for Hungarian**.
