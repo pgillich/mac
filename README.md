@@ -3,7 +3,7 @@ Apple Mac related stuffs
 
 ## Hungarian keyboard layout extension
 
-This extension provides typical Windows-style `AltGr` keys to official Hungarian keyboard layout.
+This extension provides typical Windows-style `AltGr` keys to official Hungarian keyboard layout. It changes the Hungarian keys to another Hungarian key combination.
 
 Prerequisites:
 
@@ -44,8 +44,28 @@ Features:
 * Other keys:
   * `Alt + Tab`: task selection (next; with `Shift`: previous)
   * `Win + Tab`: tab selection (next; with `Shift`: previous)
-  * `Win + Ctrl + Q`: Lock screen
+  * `Ctrl + Win + Q`: Lock screen
+  * `Ctrl + Shift + .`: show hidden files (in Finder)
 * Mouse:  
   * `Win + mouse click`: properties (right click)
   * `Ctrl + mouse click`: open link in new tab in the backbgound (Firefox)
   * `Alt + mouse click`: download link (Firefox)
+
+More info:
+
+* https://pqrs.org/osx/karabiner/
+* https://pqrs.org/osx/karabiner/json.html
+* https://pqrs.org/osx/karabiner/complex_modifications/
+
+## Ubuntu-like bash config
+
+The `.bash_profile` is a modified Ubuntu bash config. It should be downloaded to the $HOME directory.
+
+Below packages must be installed by `brew`:
+
+* `coreutils`
+* `lesspipe`
+
+More info:
+
+* https://stackoverflow.com/questions/40206151/how-to-restore-default-bashrc-ubuntu
